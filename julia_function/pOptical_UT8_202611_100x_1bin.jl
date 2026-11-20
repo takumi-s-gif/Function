@@ -1,0 +1,3 @@
+include("function_share/functions_share/ParamOptical.jl")
+pOptical = ParamOptical(3.45 * 1 / 100, 100.0, 200.0)
+pxsize = get_pxsize(pOptical)
